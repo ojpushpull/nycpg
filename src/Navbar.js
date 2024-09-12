@@ -13,10 +13,10 @@ const Navbar = () => {
             <div className="navbar-center">
                 <ul className="nav-links">
                     <li>
-                        <a href="/products"> Products</a>
+                        <a href="/resources"> Resources</a>
                     </li>
                     <li>
-                        <a href="/about"> ABout</a>
+                        <a href="/about"> About</a>
                     </li>
                     <li>
                         <a href="/contact">Contact</a>
@@ -24,13 +24,8 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-right">
-                <a href="/cart" className="cart-icon">
-                    <i className="fas fa-shopping-cart"></i>
-                    <span className="cart-count">0</span>
-                </a>
-                <a href="/account" className="user-icon">
-                <i className="fas fa-user"></i>
-                </a>
+                
+                {/* gonna put stull here later */}
             </div>
 
         </nav>
